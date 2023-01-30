@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.center-caption{
+    top: 30%;
+    height: auto;
+    max-height: 120px;
+}
+
+.big-text{
+    color: white;
+    font-size: 36pt;
+    font-weight: 900;
+}
+
+.big-text-black{
+    color: black;
+    font-size: 21pt;
+    font-weight: 900;
+}
+
+.spacer{
+    height: 10px;
+    background-color: dimgrey;
+}
+
+.two-box-1{
+    background-color:burlywood;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.two-box-2{
+    background-color:brown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center-dist{
+    align-self: center;
+    color: white;
+    font-size: 16pt;
+}
+
+i{
+    color: white;
+}
+
+@media (max-width :576px){
+    .center-caption{
+        top: 10%;
+    }
+
+    .big-text{
+        font-size: 24pt;
+    }
+
+    .center-dist{
+        text-align: center;
+    }
+}
+
+.nav-item a{
+    color: black;
+}
+
+.navbar-brand img{
+    margin-right: 15px;
+}
+
+.active-home{
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+footer p{
+    font-family: calibri;
+}
+ 
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:10px;
+}
+ 
+footer p:nth-child(2){
+    font-size: 16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align: center;
+}
+ 
+footer{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #191919;
+}
+ 
+.social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+ 
+.social-icons{
+    display: flex;
+     
+}
+ 
+.social-icons i{
+    color:#000000;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+ 
+.social-icons a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+ 
+.social-icons a:hover i{
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+}
+  
+.copyright{
+    color:#565555;
+    font-size: 15px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}

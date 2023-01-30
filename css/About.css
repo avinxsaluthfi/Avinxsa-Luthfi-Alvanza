@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.title h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: leckerli One;
+  background-color: #e3d105;
+  color: white;
+  margin-left: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title{
+  box-shadow: 8px 8px 40px;
+}
+
+.about {
+  padding-top: 90px;
+}
+.about .about_box {
+  background: #191918;
+  padding: 55px 40px;
+  box-shadow: -10px -10px 25px;
+}
+.about .about_box h3 {
+  font-size: 30px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 500;
+  padding: 0;
+}
+.about .about_box p {
+  color: #ffff;
+  font-size: 17px;
+  line-height: 28px;
+  padding: 30px 0px;
+  font-weight: 400;
+}
+.about .about_box a {
+  color: #fff;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.about .about_img {
+  height: 100%;
+  background: #d8b00f;
+  margin-top: 90px;
+  box-shadow: -10px -10px 25px;
+  background: linear-gradient(to right, red, yellow, green, blue);
+}
+
+.about .about_img figure {
+  margin: 0;
+  margin-right: 0px;
+  padding: 92px 0px 0px 60px;
+  margin-right: -64px;
+}
+
+.about_img img {
+  width: 120%;
+  margin-top: 25px;
+}
+
+.about_box a {
+  text-decoration: none;
+}
+
+.title1 h6 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.title2 h6 {
+  margin-top: 75px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+.title1 img {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 80px;
+  box-shadow: -10px -10px 25px;
+}
+
+.spacer {
+  height: 10px;
+  background-color: dimgrey;
+}
+
+.active-home {
+  background-color: chocolate;
+  border-radius: 10px;
+  padding: 6px;
+}

@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Raleway, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/06/22/38/sky-5268442_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/* nav menu */
+
+
+/* flex */
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-item{
+    padding: 20px;
+    flex: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.flex-item i, h2{
+    color: white;
+    font-size: 32pt;
+}
+
+.flex-item p{
+    color: white;
+}
+
+.flex-red {background-color: red;}
+.flex-black {background-color: brown;}
+.flex-reddark {background-color: orange;}
+.flex-red-late {background-color: black;}
+
+@media (max-width: 800px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+.button{
+    background-color: #e84545;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 14px;
+    border-radius: 5px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.button2{
+    background-color: #4caf50;
+}
+
+#mahasiswa{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#mahasiswa td, #mahasiswa th{
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+}
+
+#mahasiswa th{
+    padding: 20px;
+    text-align: left;
+    background-color: #2b2e4a;
+    color: white;
+}
+
+#mahasiswa tr{
+    background-color: #f2f2f2;
+}
+
+.form-add{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=number],
+input[type=file],
+input[type=date],
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.check-container{
+    display: block;
+    margin: 10px;
+}
+
+h1{
+    background-color: rgb(148, 119, 65);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 14px;
+    border-radius: 5px;
+}
+
+.nav-item a{
+    color: black;
+}
+
+.content{
+    margin: 20px;
+}
+
+.active{
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 6px;
+}
+
